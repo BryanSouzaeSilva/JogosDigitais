@@ -8,29 +8,59 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
 </head>
 <body>
-    <main>
-        <h1>Programação em De Jogos Digitais</h1>
-        <h3>Sobre nos</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam natus totam
-            aperiam aspernatur ipsa sed eveniet repudiandae, dignissimos minima nesciunt
-            eum non placeat ratione modi optio. Temporibus nulla ratione eaque!
-        </p>
-        <img src="img/Buggy.png" alt="">
-        <hr>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Programação De Jogos Digitais</h1>
+                <p class="descricao_sobre">
+                    <strong>Sobre o curso</strong>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam natus totam
+                    aperiam aspernatur ipsa sed eveniet repudiandae, dignissimos minima nesciunt
+                    eum non placeat ratione modi optio. Temporibus nulla ratione eaque!
+                </p>
+            </div>
+            <img src="img/Buggy.png" id="Mascote">
+        </header>
+    </div>
+    <hr>
         <!-- ------------------------------------------------------------------------------------------------------------------------------------------ -->
         
         <h3>Depoimentos</h3>
-        <div class="video">
-            <video src=""></video>
+        <div class="container_video">
+            <div class="setas">
+                <div class="seta1" id="seta">></div>
+                <div class="seta2" id="seta"><</div>
+            </div>
+            <div class="video">
+                <video src=""></video>
+            </div>
         </div>
         <hr>
         <!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
         <h3>Projetos</h3>
-        <div class="">
-            
-        </div>projetos
+        <div class="projetos">
+            <div class="projeto">
+                <img src="" class="projetoImg">
+                <p class="descricao_projeto">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reiciendis totam inventore eius et voluptas doloribus delectus
+                    vel quo deleniti voluptatum quisquam eaque pariatur quibusdam itaque,
+                    enim nobis nulla dolorum. Natus.
+                </p>
+            </div>
+        </div>
         <hr>
-    </main>
+        <h3>Inscreva-se</h3>
+        <label for="Nome">Nome completo</label>
+        <input type="text" class="Nome">
+
+        <label for="Cidade">Cidade</label>
+        <input type="text" class="Cidade">
+
+        <label for="Telefone">Telefone</label>
+        <input type="number" class="Telefone">
+
+        <label for="Cursos">Cursos</label>
+        <input type="text" class="Cursos">
     <script src='main.js'></script>
 </body>
 </html>

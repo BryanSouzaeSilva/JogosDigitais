@@ -1,3 +1,74 @@
+*{
+    background-color: lightgrey;
+}
+
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header h1{
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+header p{
+    margin-left: 10px;
+    font-size: 30px;
+    width: 1000px;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+}
+
+.container{
+    background-color: gray;
+    
+}
+
+#Mascote{
+    object-fit: contain;
+}
+
+header img{
+    margin-left: -50px;
+    width: 400px;
+    height: 400px;
+    /* object-fit: cover; */
+}
+
+hr{
+    margin-top: 10px;
+    margin-left: -10px;
+    width: 1000px;
+}
+
+#seta{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: arial normal;
+    font-size: 30px;
+}
+
+.setas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 1000px;
+}
+
 .video{
+    width: 250px;
+    height: 150px;
     background-color: gray;
 }
